@@ -7,7 +7,7 @@
 @media screen and (min-width: 376px) {
 
   #background {
-    display: inline;
+    display: inline-block;
     background-image: radial-gradient(circle, $backgroundColor1 0%, $backgroundColor2 100%);
     position: fixed;
     width: 100%;
@@ -17,7 +17,7 @@
     height: 75%;
 
     h1 {
-      font-family: $Header-font;
+      font-family: $header_Font;
     }
 
     h1,

@@ -1,0 +1,137 @@
+@import '../../variables.scss';
+
+.main_body {
+  font-family: $bodyFont;
+
+  .body_image {
+    text-align: center;
+    margin: 40px;
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: $border_Color 1px solid;
+    }
+
+  }
+
+  .project_image {
+    img {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: $border_Color 1px solid;
+    }
+  }
+
+  .body_text {
+
+    margin: 100px 0;
+
+    //project section
+    .project_text {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+
+
+      img {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: none;
+        margin: 0 25px 0 50px;
+      }
+
+      li {
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 25%;
+          border: none;
+        }
+      }
+
+    }
+
+
+    h2 {
+      text-align: center;
+      color: $headerColor;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      padding: 0 10px;
+      font-weight: 300;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      font-weight: 300;
+    }
+
+    li {
+      list-style: none;
+      padding: 10px 20px;
+
+      a {
+        text-decoration: none;
+        color: $bodyColor;
+      }
+
+      fa-icon {
+        padding-right: 5px;
+      }
+    }
+
+    li:nth-child(4) {
+      margin-left: 45px;
+    }
+  }
+
+  #frame_list {
+    justify-content: center;
+  }
+}
+
+
+// contact section
+.contact {
+  display: flex;
+  justify-content: center;
+
+  .contact_header {
+    width: 100%;
+    text-align: center;
+    color: $headerColor;
+    font-family: $bodyFont;
+    margin-left: 19px;
+
+
+  }
+
+  li {
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+  }
+
+  .avatar_image {
+    background-image: url('../../assets/Attachment_1613615438.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+  }
+}
