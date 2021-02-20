@@ -135,3 +135,58 @@
     background-size: 50px 50px;
   }
 }
+
+//media Queries
+
+@media screen and (min-width: 376px) {
+  .main_body {
+
+    .pInfo {
+      width: 25%;
+    }
+
+    .body_text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 200px 0px;
+
+      .project_img {
+        position: relative;
+        width: 150px !important;
+        height: 150px !important;
+
+
+      }
+
+
+      .project_text {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    ul {
+      font-weight: 300;
+      align-items: center !important;
+      font-size: 25px;
+      padding: 0;
+      margin: 50px 0;
+
+    }
+
+    li:nth-child(4) {
+      margin-left: 0 !important;
+    }
+
+    #frame_list {
+      margin: 50px;
+
+      li {
+        margin-left: 150px;
+      }
+
+    }
+
+  }
+}
